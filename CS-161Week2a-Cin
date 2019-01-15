@@ -1,0 +1,24 @@
+cout <<
+cin >> var;   getline(cin, var)
+
+
+int age;
+cout << "Enter your age"; //prompt
+cin >> age;
+cout << "you are" << age << "years old.";
+
+
+
+int num1, num2;
+cout << "enter 2 integers:";
+cin >> num1;    cin >> num1 >> num2;
+cin >> num2;
+
+----------------------------------
+#include <string>
+using namespace std;
+
+int main()
+  string firstName;
+  cout << "What is your first name?/n";
+  getline (cin, firstName);     // Use getline when getting a string
